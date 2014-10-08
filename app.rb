@@ -70,10 +70,11 @@ __END__
 
         %table{border:"0", style:"margin: 0px auto; width: 150px;"}
           %tr
-            %td{style:"width:50%"}
-              %a.twitter-share-button{href:"https://twitter.com/share", "data-count"=>"horizontal", "data-url"=>shit_url, "data-text"=>"#{shit.to_s}"} Share on twitter
             %td
               .fb-like{"data-href"=>shit_url, "data-layout"=>"button_count", "data-action"=>"like", "data-show-faces"=>"false", "data-share"=>"true"}
+            %td{style:"width:50%"}
+              %a.twitter-share-button{href:"https://twitter.com/share", "data-count"=>"horizontal", "data-url"=>shit_url, "data-text"=>"#{shit.to_s}"} Share on twitter
+
     %footer#footer
       %p
         Made by
