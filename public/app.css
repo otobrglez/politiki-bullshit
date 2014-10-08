@@ -9,7 +9,6 @@ body, html, input {
 }
 
 body {
-
   font-size: 14px;
   text-align: center;
   color: #fff;
@@ -54,8 +53,9 @@ a {
   line-height: 20px;
   border:none;
   background-color: #F2F2F2;
-  width: 300px;
+  width: 220px;
   text-align: center;
+  border-radius: 2px;
 }
 
 #header h3 {
