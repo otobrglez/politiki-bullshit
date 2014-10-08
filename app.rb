@@ -81,7 +81,7 @@ __END__
         %h1 Generator političnega blefa
         %h3= shit
 
-        %a.generiraj{href:"/"} Hočem nov blef!
+        %a.generate{href:"/"} Hočem nov blef!
 
         %p Deli s prijatelji
         %br/
