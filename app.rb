@@ -52,7 +52,7 @@ __END__
     %meta{name:"og:description", content: "Generator političnega blefa!"}
     %meta{name:"og:locale", content:"sl_SI"}
     %meta{name:"fb:app_id", content:"771031166289168"}
-
+    %meta{name:"fb:admins", content:"1014463747,100005581602540"
     %meta{name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1"}
 
     %link{href:"http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,100,200|Roboto:700,400,300,100", rel:"stylesheet"}
