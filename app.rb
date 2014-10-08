@@ -57,7 +57,7 @@ __END__
     %meta{name:"fb:app_id", content:"771031166289168"}
     %meta{name:"fb:admins", content:"1014463747,100005581602540"}
     %meta{name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1"}
-
+    %meta{name:"og:image", content:"./politiki_social.png"}
     %link{href:"http://fonts.googleapis.com/css?family=Roboto:700,400,300,100&subset=latin,latin-ext", rel:"stylesheet"}
     %link{rel: 'stylesheet', href: './app.css', type: 'text/css'}/
 
