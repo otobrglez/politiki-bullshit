@@ -85,7 +85,7 @@ __END__
 
         %p Deli s prijatelji
         %br/
-        .fb-like{"data-share"=>"true", "data-width"=>"450", "data-show-faces"=>"true", "data-href"=>shit_url, "data-show-faces"=>"false"}
+        .fb-like{"data-href"=>shit_url, "data-layout"=>"button_count", "data-action"=>"like", "data-show-faces"=>"false", "data-share"=>"true"}
     %footer#footer
       %p
         Made by
