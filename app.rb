@@ -11,7 +11,8 @@ helpers do
   end
 
   def shit_url
-    "/#{shit.seed}"
+    base = ENV["RACK_ENV"]=="production"? "http://www.politiki.si" : ""
+    "#{base}/#{shit.seed}"
   end
 end
 
