@@ -45,20 +45,19 @@ __END__
   %head
     %meta{charset: 'UTF-8'}/
     %title Generator političnega blefa
-    %link{rel: 'stylesheet', href: './app.css', type: 'text/css', media: 'all'}/
     %meta{property: "og:type", content:"website"}/
-
-    -# <meta name="twitter:title" property="og:title" itemprop="title name" content="Finding lines in a text file matching a regular expression" />
-    -# <meta name="twitter:description" property="og:description" itemprop="description" content="Can anyone explain how I could use regular expressions in Ruby to only return the matches of a string.
-    -# <meta property="og:url" content="http://stackoverflow.com/questions/6002868/finding-lines-in-a-text-file-matching-a-regular-expression"/>
-    -# <link rel="canonical" href="http://stackoverflow.com/questions/6002868/finding-lines-in-a-text-file-matching-a-regular-expression" />
-
     %meta{name:"og:title", content:shit.to_s}
     %meta{name:"og:site_name", content:"Politiki.si"}
     %meta{name:"og:url", content: shit_url}
     %meta{name:"og:description", content: "Generator političnega blefa!"}
     %meta{name:"og:locale", content:"sl_SI"}
     %meta{name:"fb:app_id", content:"771031166289168"}
+
+    %meta{name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1"}
+
+    %link{href:"http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,100,200|Roboto:700,400,300,100", rel:"stylesheet"}
+    %link{rel: 'stylesheet', href: './app.css', type: 'text/css', media: 'all'}/
+
   %body
     :javascript
       window.fbAsyncInit = function() {
@@ -77,20 +76,16 @@ __END__
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
 
-    .wrap
-      %h1 Generator političnega blefa
-      %p=shit
-      %a{href:shit_url} Povezava do tega blefa.
-      \|
-      %a{href:"/"} Hočem nov blef!
+    %header#header
+      .container
+        %h1 Generator političnega blefa
+        %h3= shit
 
-      %br/
-      .fb-like{"data-share"=>"true", "data-width"=>"450", "data-show-faces"=>"true"}
+        %a.generiraj{href:"/"} Hočem nov blef!
 
-
-      %br/
-      %small
-        %a{href:"/all.html"} Seznam vseh.
+        %p Deli s prijatelji
+        %br/
+        .fb-like{"data-share"=>"true", "data-width"=>"450", "data-show-faces"=>"true"}
     %footer
       %p
         Made by
@@ -99,5 +94,9 @@ __END__
         %a{href:"https://twitter.com/xzarexhc"} @xzarexhc
         \|
         Share with <3
+        \|
+        %a{href:"/all.html"} Seznam vseh.
+
+
 
 
