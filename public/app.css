@@ -54,7 +54,7 @@ a {
   line-height: 20px;
   border:none;
   background-color: #F2F2F2;
-  max-width: 390px;
+  width: 300px;
   text-align: center;
 }
 
