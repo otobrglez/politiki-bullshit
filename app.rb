@@ -68,7 +68,7 @@ __END__
 
         %p Deli s prijatelji
 
-        %a.twitter-share-button{href:"https://twitter.com/share", "data-url"=>shit_url, "data-text"=>"#{shit.to_s} #{shit_url}"} Share on twitter
+        %a.twitter-share-button{href:"https://twitter.com/share", "data-url"=>shit_url, "data-text"=>"#{shit.to_s}"} Share on twitter
         %br/
         .fb-like{"data-href"=>shit_url, "data-layout"=>"button_count", "data-action"=>"like", "data-show-faces"=>"false", "data-share"=>"true"}
     %footer#footer
