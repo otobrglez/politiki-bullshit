@@ -35,14 +35,13 @@ a:hover {
   text-decoration: underline;
 }
 
-
 #header .container {
   width: 70%;
   margin: 0 auto;
 }
 
 #header{
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -101,10 +100,6 @@ background: #55ACEE;
 
   position: absolute;
   bottom: 0;
-}
-
-#footer a {
-  color: #000;
 }
 
 #footer p {
