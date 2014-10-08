@@ -11,9 +11,9 @@ helpers do
   end
 end
 
-error do |err|
-  halt(404, "Nič ni tukaj.")
-end
+# error do |err|
+#   halt(404, "Nič ni tukaj.")
+# end
 
 get '/' do
   haml :index
@@ -21,6 +21,16 @@ end
 
 get %r{^\/(\d+\-\d+\-\d+\-\d+){1}$} do
   haml :index
+end
+
+get '/api/shit.json' do
+  content_type :json
+  shit.to_json
+end
+
+get %r{^\/api\/shits\/(\d+\-\d+\-\d+\-\d+){1}\.json$} do
+  content_type :json
+  shit.to_json
 end
 
 __END__

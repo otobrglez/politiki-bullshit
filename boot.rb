@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'sinatra'
 require 'haml'
+require 'json'
 require 'sinatra/contrib'
 require './bullshit'
 

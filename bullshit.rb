@@ -31,6 +31,15 @@ class Bullshit
     shit
   end
 
+  def to_json
+    {
+      seed: seed,
+      url: "/#{seed}",
+      api_url: "/api/shits/#{seed}.json",
+      shit: shit
+    }.to_json
+  end
+
   def shits_list
     shits=[]
     shits[0]    = []
