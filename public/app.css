@@ -41,14 +41,14 @@ a:hover {
 }
 
 #header{
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
 #header p {
   font-size: 24px;
   color: #FFFFFF;
-  line-height: 29px;
+  line-height: 32px;
 }
 
 #header h3 {
@@ -94,12 +94,13 @@ background: #55ACEE;
 }
 
 #footer {
-  width: 100%;
+  display: block;
   height: 120px;
   background: #1F1F1F;
+}
 
-  position: absolute;
-  bottom: 0;
+#footer a{
+  color:#CCC;
 }
 
 #footer p {

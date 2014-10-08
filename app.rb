@@ -84,7 +84,7 @@ __END__
         %a.generate{href:"/"} Hočem nov blef!
 
         %p Deli s prijatelji
-        %br/
+
         .fb-like{"data-href"=>shit_url, "data-layout"=>"button_count", "data-action"=>"like", "data-show-faces"=>"false", "data-share"=>"true"}
     %footer#footer
       %p
