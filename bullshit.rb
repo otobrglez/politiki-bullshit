@@ -72,7 +72,7 @@ class Bullshit
     shits[2][4] = "omogoča večjo kreativnost pri odločanju"
     shits[2][5] = "odpravlja odprta nesoglasja pri oceni"
     shits[2][6] = "spodbuja premostitev nasprotij pri oblikovanju"
-    shits[2][7] = "jasneje determinira strategijo"
+    shits[2][7] = "jasneje determinira s strategijo"
     shits[2][8] = "tvorno sooblikuje nova stališča do"
     shits[2][9] = "usklajuje oceno pomembnosti"
     shits[3]    = []

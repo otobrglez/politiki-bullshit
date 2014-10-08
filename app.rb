@@ -55,7 +55,7 @@ __END__
     %meta{name:"fb:admins", content:"1014463747,100005581602540"}
     %meta{name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1"}
 
-    %link{href:"http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,100,200|Roboto:700,400,300,100", rel:"stylesheet"}
+    %link{href:"http://fonts.googleapis.com/css?family=Roboto:700,400,300,100&subset=latin,latin-ext", rel:"stylesheet"}
     %link{rel: 'stylesheet', href: './app.css', type: 'text/css'}/
 
   %body
