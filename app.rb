@@ -95,6 +95,8 @@ __END__
         %a{href:"/all.html"} Seznam vseh.
         \|
         %a{href:"https://github.com/otobrglez/politiki-bullshit"} Koda projekta
+        %br/
+        Vir: Blefsikon govorništva, co libris
 
     :javascript
       /* FB */
