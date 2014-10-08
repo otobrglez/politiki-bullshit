@@ -1,5 +1,8 @@
 require_relative 'boot'
 
+require 'newrelic_rpm'
+
+
 configure do
   enable :inline_templates
   set :show_exceptions, false
