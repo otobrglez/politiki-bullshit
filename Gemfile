@@ -13,5 +13,6 @@ group :test do
 end
 
 group :development do
-  gem 'foreman'
+	gem 'powder'
+	gem 'foreman'
 end

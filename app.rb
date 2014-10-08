@@ -56,7 +56,7 @@ __END__
     %meta{name:"viewport", content:"width=device-width, initial-scale=1, maximum-scale=1"}
 
     %link{href:"http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,100,200|Roboto:700,400,300,100", rel:"stylesheet"}
-    %link{rel: 'stylesheet', href: './app.css', type: 'text/css', media: 'all'}/
+    %link{rel: 'stylesheet', href: './app.css', type: 'text/css'}/
 
   %body
     %header#header
@@ -88,6 +88,8 @@ __END__
         Share with <3
         \|
         %a{href:"/all.html"} Seznam vseh.
+        \|
+        %a{href:"https://github.com/otobrglez/politiki-bullshit"} Koda projekta
 
     :javascript
       /* FB */

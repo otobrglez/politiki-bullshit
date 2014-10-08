@@ -98,7 +98,7 @@ a {
 }
 
 #footer p {
-  line-height: 120px;
+  margin-bottom: 10px;
   margin: 0;
 }
 
@@ -113,4 +113,42 @@ a {
 #footer a:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+  #header {
+    padding: 5px;
+  }
+
+  #header .container{
+    width: 100%;
+    padding: 5px;
+  }
+
+  #header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  #header h3{
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 35px;
+  }
+
+  #footer {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  #header p{
+    margin-top: 40px;
+  }
+
+  body {
+    background-color: green;
+  }
+
+
 }
