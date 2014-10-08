@@ -1,0 +1,14 @@
+# Logfile created on 2014-10-08 15:28:14 +0100 by logger.rb/44203
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Starting the New Relic agent in "development" environment.
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Reading configuration from config/newrelic.yml (/Users/otobrglez/Projects/politiki)
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Environment: development
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : No known dispatcher detected.
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Application: Politiki.si
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Installing Net instrumentation
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Installing Sinatra instrumentation
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Installing deferred Rack instrumentation
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Installing Rack::Builder middleware instrumentation
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Finished instrumentation
+[10/08/14 15:28:14 +0100 zbook.local (13832)] INFO : Doing deferred dependency-detection before Rack startup
+[10/08/14 15:28:15 +0100 zbook.local (13832)] INFO : Reporting to: https://rpm.newrelic.com/accounts/786821/applications/5397302

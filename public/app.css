@@ -3,12 +3,13 @@ html, body {
   padding: 0px;
 }
 
-html {
+body, html, input {
+  font-family: 'Roboto', sans-serif;
   font-size: 100%;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+
   font-size: 14px;
   text-align: center;
   color: #fff;
@@ -22,7 +23,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #4A90E2;
   -webkit-transition: all ease 0.25s;
   transition: all ease 0.25s;
 }
@@ -42,6 +42,20 @@ a {
   color: #FFFFFF;
   line-height: 29px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.20);
+}
+
+#header form{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 4px;
+}
+#header input {
+  font-size: 15px;
+  line-height: 20px;
+  border:none;
+  background-color: #F2F2F2;
+  max-width: 350px;
+  text-align: center;
 }
 
 #header h3 {
@@ -103,7 +117,7 @@ a {
 }
 
 #footer a{
-  color:#4A90E2;
+  color: #2a5280;
 }
 
 #footer a:focus {

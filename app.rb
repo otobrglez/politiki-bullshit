@@ -66,9 +66,7 @@ __END__
       .container
         %h1 Generator političnega blefa
         %h3= shit
-
         %a.generate{href:"/"} Hočem nov blef!
-
         %p Deli s prijatelji
 
         %table{border:"0", style:"margin: 0px auto; width: 150px;"}
@@ -80,7 +78,8 @@ __END__
 
         %br/
         %small
-          %a{href:shit_url} "Povezava do tega blefa - #{shit_url}"
+          %form
+            %input{value:"#{shit_url}"}
     %footer#footer
       %p
         Made by
