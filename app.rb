@@ -56,8 +56,9 @@ __END__
     %meta{name:"og:title", content:shit.to_s}
     %meta{name:"og:site_name", content:"Politiki.si"}
     %meta{name:"og:url", content: shit_url}
-    %meta{name:"og:description", content: shit.to_s}
+    %meta{name:"og:description", content: "Generator političnega blefa!"}
     %meta{name:"og:locale", content:"sl_SI"}
+    %meta{name:"fb:app_id", content:"771031166289168"}
   %body
     :javascript
       window.fbAsyncInit = function() {
