@@ -1,4 +1,3 @@
-Gemfile.lock
 *.sqlite
 .rvmrc
 .sass-cache
