@@ -75,6 +75,9 @@ __END__
             %td{style:"width:50%"}
               %a.twitter-share-button{href:"https://twitter.com/share", "data-count"=>"horizontal", "data-url"=>shit_url, "data-text"=>"#{shit.to_s}"} Share on twitter
 
+        %br/
+        %small
+          %a{href:shit_url} "Povezava do tega blefa - #{shit_url}"
     %footer#footer
       %p
         Made by
