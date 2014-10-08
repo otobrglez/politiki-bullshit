@@ -6,6 +6,7 @@ gem 'sinatra-contrib'
 gem 'unicorn'
 gem 'haml'
 gem 'heroku'
+gem 'newrelic_rpm'
 
 group :test do
   gem 'rspec'
